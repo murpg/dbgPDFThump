@@ -1,0 +1,36 @@
+{
+    "name":"dbgPDFThump",
+    "version":"0.0.0",
+    "author":"George Murphy",
+    "location":"murpg/dbgPDFThump#v0.0.0",
+    "homepage":"https://github.com/murpg/dbgPDFThump",
+    "documentation":"https://github.com/murpg/dbgPDFThump",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/murpg/dbgPDFThump"
+    },
+    "bugs":"https://github.com/murpg/dbgPDFThump/issues",
+    "slug":"dbgPDFThump",
+    "shortDescription":"This will allow you to create pdf thumbs",
+    "description":"This will allow you to create pdf thumbs",
+    "type":"modules",
+    "dependencies":{},
+    "devDependencies":{
+        "coldbox":"^4.3.0+188",
+        "testbox":"^2.4.0+80"
+    },
+    "installPaths":{
+        "testbox":"testbox",
+        "coldbox":"tests/resources/app/coldbox"
+    },
+    "scripts":{
+        "postVersion":"package set location='murpg/dbgPDFThump#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push && !git push --tags"
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
