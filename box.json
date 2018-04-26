@@ -1,8 +1,8 @@
 {
     "name":"dbgPDFThump",
-    "version":"1.0.0",
+    "version":"minor",
     "author":"George Murphy",
-    "location":"murpg/dbgPDFThump#v1.0.0",
+    "location":"murpg/dbgPDFThump#vminor",
     "homepage":"https://github.com/murpg/dbgPDFThump",
     "documentation":"https://github.com/murpg/dbgPDFThump",
     "repository":{
